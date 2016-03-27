@@ -1,0 +1,99 @@
+<html>
+<title>Quiz</title>
+<head>
+  <title>Quiz</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style1.css" />
+ <link rel="stylesheet" type="text/css" href="cssstyles.css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.dropotron-1.0.js"></script>
+<script type="text/javascript" src="jquery.slidertron-1.1.js"></script>
+
+<script type="text/javascript">
+
+	$(function() {
+		$('#menu > ul').dropotron({
+			mode: 'fade',
+			globalOffsetY: 11,
+			offsetY: -15
+		});
+		$('#slider').slidertron({
+			viewerSelector: '.viewer',
+			indicatorSelector: '.indicator span',
+			reelSelector: '.reel',
+			slidesSelector: '.slide',
+			speed: 'slow',
+			advanceDelay: 2000
+		});
+	});
+</script>
+</head>
+<body>
+
+<div class="container">
+  
+ 
+   
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div id="main" class="item active" >
+        <div id="wrapper">
+	<div id="header">
+		<div id="logo">
+			<h1><a href="#">For You</a></h1>
+		</div>
+		
+	</div>
+	<div id="logo1">
+			<h1><a href="#">Draw Shapes on a Dot-Grid</br>Using Straight Lines</a></h1>
+			
+	   <div id="grade">
+	   <a>Grade 3 Math>Geometry>Shapes&nbsp;</a>
+	   </div>
+			
+	
+		</div>
+		
+	<div id="set">
+	
+	<a href="index2.html"><img src="images/start-now.png" /></a>
+	</div>
+	
+	<div id="time">
+	
+		</br>Time<br>30-40 minutes<br><br>Tags<br>Maths,Geometry,Shapes,Lines</br></br>
+			
+	</div>
+	<div id="slider">
+		<div class="viewer">
+			<div class="reel">
+				<div class="slide">
+					<h1 ><a href="#" id="badge">You earned a new badge</a></h1>
+				</div>
+				<div class="slide">
+					<h1><a href="#" id="badge">See your badge collection here</a></h1>
+				</div>
+				<div class="slide">
+					<h1><a href="#" id="badge">Yeahh!!</a></h1>
+				</div>
+				
+			</div>
+		</div>
+		<div class="indicator">
+			<span>1</span>
+			<span>2</span>
+			<span>3</span>
+			
+		</div>
+	</div>
+	
+	
+</div>
+
+      </div>
+
+</html>

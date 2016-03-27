@@ -1,0 +1,62 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#container1{
+	width:500px;
+	height:700px;
+	position:relative;
+}
+
+#container1 .prevButton{
+	height:72px;
+	width:68px;
+	position:absolute;
+	background:url('images/buttons.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:left top;
+	left:0
+}
+
+#container1 .prevButton:hover{ background-position:left bottom;left:0;}
+
+#container1 .nextButton{
+	height:72px;
+	width:68px;
+	position:absolute;
+	background:url('images/buttons.png') no-repeat;
+	top:50%;
+	margin-top:-36px;
+	cursor:pointer;
+	z-index:2000;
+	background-position:right top;
+	right:0
+}
+
+
+
+#container1 .nextButton:hover{background-position:right bottom;right:0;}
+
+#container1 ul{
+	width:604px;
+	height:700px;
+	list-style:none outside none;
+	position:relative;
+	overflow:hidden;
+}
+
+#container1 li:first-child{
+	display:list-item;
+	position:absolute;
+}
+
+#container1 li{
+	position:absolute;
+	display:none;
+}
+
+
